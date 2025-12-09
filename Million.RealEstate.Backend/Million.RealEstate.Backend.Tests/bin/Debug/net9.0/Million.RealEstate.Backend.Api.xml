@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Million.RealEstate.Backend.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Million.RealEstate.Backend.Api.Controllers.AuthController.Register(Million.RealEstate.Backend.Api.Models.Auth.RegisterRequest)">
+            <summary>
+            Registra un nuevo usuario y devuelve un JWT.
+            </summary>
+        </member>
+        <member name="M:Million.RealEstate.Backend.Api.Controllers.AuthController.Login(Million.RealEstate.Backend.Api.Models.Auth.LoginRequest)">
+            <summary>
+            Inicia sesión y devuelve un JWT.
+            </summary>
+        </member>
+    </members>
+</doc>
