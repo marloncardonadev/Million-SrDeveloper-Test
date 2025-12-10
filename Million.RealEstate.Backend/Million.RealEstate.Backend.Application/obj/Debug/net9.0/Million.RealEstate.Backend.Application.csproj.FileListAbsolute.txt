@@ -23,6 +23,7 @@ C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.Rea
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Application\obj\Debug\net9.0\Million.RealEstate.Backend.Application.AssemblyInfoInputs.cache
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Application\obj\Debug\net9.0\Million.RealEstate.Backend.Application.AssemblyInfo.cs
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Application\obj\Debug\net9.0\Million.RealEstate.Backend.Application.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Application\obj\Debug\net9.0\Million.RealEstate.Backend.Application.sourcelink.json
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Application\obj\Debug\net9.0\Million..052B5AC8.Up2Date
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Application\obj\Debug\net9.0\Million.RealEstate.Backend.Application.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Application\obj\Debug\net9.0\refint\Million.RealEstate.Backend.Application.dll

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Million.RealEstate.Backend.Application.Abstractions;
+﻿namespace Million.RealEstate.Backend.Application.Abstractions;
 
 public interface IPasswordHasher
 {

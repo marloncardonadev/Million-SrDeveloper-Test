@@ -8,5 +8,5 @@ public interface IPropertyRepository
     Task AddAsync(Property property, CancellationToken cancellationToken = default);
     void Update(Property property);
     Task<bool> ExistsCodeInternalAsync(string codeInternal, CancellationToken cancellationToken = default);
-    IQueryable<Property> Query(); // para filtros
+    IQueryable<Property> Query();
 }

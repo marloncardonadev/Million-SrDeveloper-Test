@@ -1,5 +1,57 @@
 [
   {
+    "ContainingType": "Million.RealEstate.Backend.Api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Million.RealEstate.Backend.Api.Models.Auth.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Million.RealEstate.Backend.Application.Dtos.AuthResultDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Million.RealEstate.Backend.Api.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Million.RealEstate.Backend.Api.Models.Auth.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Million.RealEstate.Backend.Application.Dtos.AuthResultDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Million.RealEstate.Backend.Api.Controllers.PropertiesController",
     "Method": "Create",
     "RelativePath": "api/Properties",
@@ -9,7 +61,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "Million.RealEstate.Backend.Api.Model.CreatePropertyRequest",
+        "Type": "Million.RealEstate.Backend.Api.Models.CreatePropertyRequest",
         "IsRequired": true
       }
     ],
@@ -112,7 +164,7 @@
       },
       {
         "Name": "request",
-        "Type": "Million.RealEstate.Backend.Api.Model.UpdatePropertyRequest",
+        "Type": "Million.RealEstate.Backend.Api.Models.UpdatePropertyRequest",
         "IsRequired": true
       }
     ],
@@ -139,7 +191,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Guid",
+        "Type": "System.Int32",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -164,7 +216,7 @@
       },
       {
         "Name": "request",
-        "Type": "Million.RealEstate.Backend.Api.Model.ChangePriceRequest",
+        "Type": "Million.RealEstate.Backend.Api.Models.ChangePriceRequest",
         "IsRequired": true
       }
     ],
@@ -185,13 +237,13 @@
       },
       {
         "Name": "request",
-        "Type": "Million.RealEstate.Backend.Api.Model.AddPropertyTraceRequest",
+        "Type": "Million.RealEstate.Backend.Api.Models.AddPropertyTraceRequest",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Guid",
+        "Type": "System.Int32",
         "MediaTypes": [
           "text/plain",
           "application/json",

@@ -1,6 +1,6 @@
 @Million.RealEstate.Backend.Api_HostAddress = http://localhost:5053
 
-GET {{Million.RealEstate.Backend.Api_HostAddress}}/weatherforecast/
+GET {{Million.RealEstate.Backend.Api_HostAddress}}/api/properties
 Accept: application/json
 
 ###

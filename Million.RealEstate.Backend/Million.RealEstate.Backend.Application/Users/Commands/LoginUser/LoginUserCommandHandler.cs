@@ -28,7 +28,6 @@ public class LoginUserCommandHandler : IRequestHandler<LoginUserCommand, AuthRes
 
     public async Task<AuthResultDto> Handle(LoginUserCommand request, CancellationToken cancellationToken)
     {
-        // buscar por username o email
         var user = await _userRepository.GetByUserNameAsync(request.UserNameOrEmail, cancellationToken)
                    ?? await _userRepository.GetByEmailAsync(request.UserNameOrEmail, cancellationToken);
 

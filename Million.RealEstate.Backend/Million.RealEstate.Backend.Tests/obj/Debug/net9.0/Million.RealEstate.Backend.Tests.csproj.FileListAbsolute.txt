@@ -138,6 +138,8 @@ C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.Rea
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\AutoMapper.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Azure.Core.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Castle.Core.dll
+C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\FluentAssertions.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\FluentValidation.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\MediatR.dll
@@ -154,11 +156,13 @@ C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.Rea
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Microsoft.Identity.Client.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
@@ -178,6 +182,7 @@ C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.Rea
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Microsoft.TestPlatform.Utilities.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Microsoft.VisualStudio.TestPlatform.Common.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Moq.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\nunit.framework.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\bin\Debug\net9.0\nunit.framework.legacy.dll
@@ -285,6 +290,7 @@ C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.Rea
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\obj\Debug\net9.0\Million.RealEstate.Backend.Tests.AssemblyInfoInputs.cache
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\obj\Debug\net9.0\Million.RealEstate.Backend.Tests.AssemblyInfo.cs
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\obj\Debug\net9.0\Million.RealEstate.Backend.Tests.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\obj\Debug\net9.0\Million.RealEstate.Backend.Tests.sourcelink.json
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\obj\Debug\net9.0\Million..10E1553A.Up2Date
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\obj\Debug\net9.0\Million.RealEstate.Backend.Tests.dll
 C:\Users\asus\Desktop\Pruebas\PruebaMillion\Million-SrDeveloper-Test\Million.RealEstate.Backend\Million.RealEstate.Backend.Tests\obj\Debug\net9.0\refint\Million.RealEstate.Backend.Tests.dll

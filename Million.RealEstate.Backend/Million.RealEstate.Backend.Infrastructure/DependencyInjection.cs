@@ -24,11 +24,12 @@ public static class DependencyInjection
 
         services.AddScoped<IPropertyRepository, PropertyRepository>();
         services.AddScoped<IOwnerRepository, OwnerRepository>();
+        services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<IUnitOfWork>(sp => sp.GetRequiredService<RealEstateDbContext>());
 
         services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
 
-        //services.Configure<JwtSettings>(configuration.GetSection("Jwt"));
+        services.Configure<JwtSettings>(configuration.GetSection("Jwt"));
         services.AddSingleton<IPasswordHasher, PasswordHasher>();
         services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
 

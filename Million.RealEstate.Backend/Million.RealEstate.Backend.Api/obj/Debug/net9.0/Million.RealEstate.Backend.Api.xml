@@ -6,13 +6,97 @@
     <members>
         <member name="M:Million.RealEstate.Backend.Api.Controllers.AuthController.Register(Million.RealEstate.Backend.Api.Models.Auth.RegisterRequest)">
             <summary>
-            Registra un nuevo usuario y devuelve un JWT.
+            Registers a new user with the provided registration details.
             </summary>
+            <remarks>This method processes the registration request by sending a <see cref="T:Million.RealEstate.Backend.Application.Users.Commands.RegisterUser.RegisterUserCommand"/>
+            to the mediator.  The result includes authentication information for the registered user.</remarks>
+            <param name="request">The registration details, including the username, email, and password.</param>
+            <returns>An <see cref="T:Microsoft.AspNetCore.Mvc.ActionResult`1"/> containing an <see cref="T:Million.RealEstate.Backend.Application.Dtos.AuthResultDto"/> with the authentication result  for
+            the newly registered user.</returns>
         </member>
         <member name="M:Million.RealEstate.Backend.Api.Controllers.AuthController.Login(Million.RealEstate.Backend.Api.Models.Auth.LoginRequest)">
             <summary>
-            Inicia sesión y devuelve un JWT.
+            Authenticates a user based on the provided login credentials.
             </summary>
+            <remarks>This method processes the login request by sending a <see cref="T:Million.RealEstate.Backend.Application.Users.Commands.LoginUser.LoginUserCommand"/> to the
+            mediator. The result includes authentication details such as tokens or user information.</remarks>
+            <param name="request">The login request containing the user's username or email and password.</param>
+            <returns>An <see cref="T:Microsoft.AspNetCore.Mvc.ActionResult`1"/> containing an <see cref="T:Million.RealEstate.Backend.Application.Dtos.AuthResultDto"/> with authentication details if the
+            login is successful.</returns>
+        </member>
+        <member name="M:Million.RealEstate.Backend.Api.Controllers.PropertiesController.Create(Million.RealEstate.Backend.Api.Models.CreatePropertyRequest)">
+            <summary>
+            Creates a new property and returns its unique identifier.
+            </summary>
+            <remarks>This method processes the provided <paramref name="request"/> to create a new property
+            record. The property details are encapsulated in a <see cref="T:Million.RealEstate.Backend.Api.Models.CreatePropertyRequest"/> object. The method
+            returns a 201 Created response with the location of the newly created resource.</remarks>
+            <param name="request">The request containing the details of the property to create, including name, address, price, internal code,
+            year, and owner ID.</param>
+            <returns>An <see cref="T:Microsoft.AspNetCore.Mvc.ActionResult`1"/> containing the unique identifier of the newly created property.</returns>
+        </member>
+        <member name="M:Million.RealEstate.Backend.Api.Controllers.PropertiesController.GetById(System.Int32)">
+            <summary>
+            Retrieves a property by its unique identifier.
+            </summary>
+            <remarks>This method queries the list of properties and returns the first property that matches the
+            specified identifier.</remarks>
+            <param name="id">The unique identifier of the property to retrieve. Must be a positive integer.</param>
+            <returns>An <see cref="T:Microsoft.AspNetCore.Mvc.ActionResult`1"/> containing the property details as a <see cref="T:Million.RealEstate.Backend.Application.Dtos.PropertyDto"/> if found;
+            otherwise, a <see cref="T:Microsoft.AspNetCore.Mvc.NotFoundResult"/> if no property with the specified identifier exists.</returns>
+        </member>
+        <member name="M:Million.RealEstate.Backend.Api.Controllers.PropertiesController.ChangePrice(System.Int32,Million.RealEstate.Backend.Api.Models.ChangePriceRequest)">
+            <summary>
+            Updates the price of a property with the specified identifier.
+            </summary>
+            <remarks>The <paramref name="id"/> must correspond to an existing property. The <paramref
+            name="request"/> must contain a valid price value.</remarks>
+            <param name="id">The unique identifier of the property whose price is to be updated.</param>
+            <param name="request">An object containing the new price for the property.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation. Returns <see
+            cref="T:Microsoft.AspNetCore.Mvc.NoContentResult"/> if the operation is successful.</returns>
+        </member>
+        <member name="M:Million.RealEstate.Backend.Api.Controllers.PropertiesController.AddImage(System.Int32,System.String)">
+            <summary>
+            Adds an image to the property with the specified identifier.
+            </summary>
+            <remarks>The image is associated with the property identified by <paramref name="id"/>.  Ensure that
+            the provided <paramref name="file"/> is a valid base64-encoded string.</remarks>
+            <param name="id">The unique identifier of the property to which the image will be added.</param>
+            <param name="file">The image file content as a base64-encoded string.</param>
+            <returns>A <see cref="T:System.Int32"/> representing the unique identifier of the newly added image.</returns>
+        </member>
+        <member name="M:Million.RealEstate.Backend.Api.Controllers.PropertiesController.GetWithFilters(System.String,System.Nullable{System.Decimal},System.Nullable{System.Decimal},System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Retrieves a collection of properties that match the specified filter criteria.
+            </summary>
+            <remarks>All filter parameters are optional. If no filters are provided, the method returns all
+            available properties.</remarks>
+            <param name="name">The name or partial name of the property to filter by. This parameter is optional.</param>
+            <param name="minPrice">The minimum price of the properties to include in the results. This parameter is optional.</param>
+            <param name="maxPrice">The maximum price of the properties to include in the results. This parameter is optional.</param>
+            <param name="year">The year associated with the properties to filter by. This parameter is optional.</param>
+            <param name="ownerId">The unique identifier of the property owner to filter by. This parameter is optional.</param>
+            <returns>An <see cref="T:Microsoft.AspNetCore.Mvc.ActionResult`1"/> containing an <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Million.RealEstate.Backend.Application.Dtos.PropertyDto"/> objects
+            that match the specified filter criteria. If no properties match the criteria, an empty collection is returned.</returns>
+        </member>
+        <member name="M:Million.RealEstate.Backend.Api.Controllers.PropertiesController.Update(System.Int32,Million.RealEstate.Backend.Api.Models.UpdatePropertyRequest)">
+            <summary>
+            Updates the property with the specified identifier using the provided update request data.
+            </summary>
+            <param name="id">The unique identifier of the property to update. Must be a positive integer.</param>
+            <param name="request">The data used to update the property. This must include the property's name, address, year, and owner ID.</param>
+            <returns>A <see cref="T:Microsoft.AspNetCore.Mvc.NoContentResult"/> indicating that the update operation completed successfully.</returns>
+        </member>
+        <member name="M:Million.RealEstate.Backend.Api.Controllers.PropertiesController.AddTrace(System.Int32,Million.RealEstate.Backend.Api.Models.AddPropertyTraceRequest)">
+            <summary>
+            Adds a new property trace for the specified property.
+            </summary>
+            <remarks>This method processes the provided trace details and associates them with the specified
+            property. The <paramref name="id"/> must correspond to an existing property.</remarks>
+            <param name="id">The unique identifier of the property to which the trace will be added.</param>
+            <param name="request">The details of the property trace to add, including the date of sale, name, value, and tax.</param>
+            <returns>The unique identifier of the newly created property trace.</returns>
         </member>
     </members>
 </doc>

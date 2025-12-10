@@ -21,12 +21,10 @@ public static class SwaggerConfig
                 }
             });
 
-            // XML comments (si ya lo tenías configurado)
             var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
             var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
             options.IncludeXmlComments(xmlPath);
 
-            // 🔐 Esquema de seguridad JWT Bearer
             var securityScheme = new OpenApiSecurityScheme
             {
                 Name = "Authorization",

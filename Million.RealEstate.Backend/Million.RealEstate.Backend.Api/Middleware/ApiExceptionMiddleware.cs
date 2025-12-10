@@ -61,7 +61,7 @@ public class ApiExceptionMiddleware
                 {
                     success = false,
                     message = "An unexpected error occurred.",
-                    detail = exception.Message // en prod puedes ocultarlo
+                    detail = exception.Message
                 };
                 break;
         }

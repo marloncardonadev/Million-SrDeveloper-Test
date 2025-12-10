@@ -53,7 +53,7 @@ public class RegisterUserCommandHandler : IRequestHandler<RegisterUserCommand, A
             Token = token,
             UserName = user.UserName,
             Email = user.Email,
-            ExpiresAt = _dateTimeProvider.UtcNow.AddHours(1) // mismo expiry que en el generador
+            ExpiresAt = _dateTimeProvider.UtcNow.AddHours(1)
         };
     }
 }
